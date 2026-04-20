@@ -52,14 +52,14 @@ async function startAR() {
   const modelBleu = await loadCollada("../../assets/models/Bleu.dae");
 
   //Setting scale
-  modelCyborcus.scene.scale.set(0.1,0.1,0.1);
-  modelHato.scene.scale.set(0.1,0.1,0.1);
-  modelHivedegger.scene.scale.set(0.1,0.1,0.1);
-  modelSaradostrich.scene.scale.set(0.1,0.1,0.1);
-  modelSoumadis.scene.scale.set(0.1,0.1,0.1);
-  modelZamolate.scene.scale.set(0.1,0.1,0.1);
-  modelArgutix.scene.scale.set(0.1,0.1,0.1);
-  modelBleu.scene.scale.set(0.1,0.1,0.1);
+//   modelCyborcus.scene.scale.set(0.1,0.1,0.1);
+//   modelHato.scene.scale.set(0.1,0.1,0.1);
+//   modelHivedegger.scene.scale.set(0.1,0.1,0.1);
+//   modelSaradostrich.scene.scale.set(0.1,0.1,0.1);
+//   modelSoumadis.scene.scale.set(0.1,0.1,0.1);
+//   modelZamolate.scene.scale.set(0.1,0.1,0.1);
+//   modelArgutix.scene.scale.set(0.1,0.1,0.1);
+//   modelBleu.scene.scale.set(0.1,0.1,0.1);
 
   // Anchoring every creation to their PNG files. (Which can also be imported back into Spore)
 
