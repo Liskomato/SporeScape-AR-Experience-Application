@@ -1,5 +1,5 @@
-import {loadCollada} from "./libs/loader.js";
-import { CSS3DObject } from "./libs/three.js-r132/examples/jsm/renderers/CSS3DRenderer.js";
+import {loadCollada} from "../libs/loader.js";
+import { CSS3DObject } from "../libs/three.js-r132/examples/jsm/renderers/CSS3DRenderer.js";
 const THREE = window.MINDAR.IMAGE.THREE;
 
 // YouTube video for SporeScape - Galaksi herää (Finnish version of The Galaxy Awakens)
@@ -32,7 +32,7 @@ async function startAR() {
   // Initialize MindAR and Three.js
   const mindARThreeJs = new window.MINDAR.IMAGE.MindARThree({
     container: document.body,
-    imageTargetSrc: "./assets/targets/creatures_and_adventure.mind",
+    imageTargetSrc: "../assets/targets/creatures_and_adventure.mind",
     maxTrack: 9
   });
 
@@ -46,14 +46,14 @@ async function startAR() {
   // Loading collada models of Spore creatures, exported natively from the game.
 
   
-  const modelHato = await loadCollada("./assets/models/Hato.dae");
-  const modelHivedegger = await loadCollada("./assets/models/Hivedegger.dae");
-  const modelSaradostrich = await loadCollada("./assets/models/Saradostrich.dae");
-  const modelSoumadis = await loadCollada("./assets/models/Soumadis VI.dae");
-  const modelZamolate = await loadCollada("./assets/models/Zamolate.dae");
-  const modelArgutix = await loadCollada("./assets/models/Argutix.dae");
-  const modelBleu = await loadCollada("./assets/models/Bleu.dae");
-  const modelCyborcus = await loadCollada("./assets/models/Cyborcus.dae");
+  const modelHato = await loadCollada("../assets/models/Hato.dae");
+  const modelHivedegger = await loadCollada("../assets/models/Hivedegger.dae");
+  const modelSaradostrich = await loadCollada("../assets/models/Saradostrich.dae");
+  const modelSoumadis = await loadCollada("../assets/models/Soumadis VI.dae");
+  const modelZamolate = await loadCollada("../assets/models/Zamolate.dae");
+  const modelArgutix = await loadCollada("../assets/models/Argutix.dae");
+  const modelBleu = await loadCollada("../assets/models/Bleu.dae");
+  const modelCyborcus = await loadCollada("../assets/models/Cyborcus.dae");
 
   //Setting scale
    
